@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D79E22492AE5BA4B00E13064 /* DriscollDrewHW6App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79E22482AE5BA4B00E13064 /* DriscollDrewHW6App.swift */; };
+		D79E224D2AE5BA4E00E13064 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D79E224C2AE5BA4E00E13064 /* Assets.xcassets */; };
+		D79E22502AE5BA4E00E13064 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D79E224F2AE5BA4E00E13064 /* Preview Assets.xcassets */; };
+		D79E225A2AE5BA4F00E13064 /* DriscollDrewHW6Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79E22592AE5BA4F00E13064 /* DriscollDrewHW6Tests.swift */; };
+		D79E22642AE5BA4F00E13064 /* DriscollDrewHW6UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79E22632AE5BA4F00E13064 /* DriscollDrewHW6UITests.swift */; };
+		D79E22662AE5BA4F00E13064 /* DriscollDrewHW6UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79E22652AE5BA4F00E13064 /* DriscollDrewHW6UITestsLaunchTests.swift */; };
+		D79E22772AE5BB3700E13064 /* Flashcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79E22762AE5BB3700E13064 /* Flashcard.swift */; };
+		D79E22792AE5BB6200E13064 /* FlashcardsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79E22782AE5BB6200E13064 /* FlashcardsModel.swift */; };
+		D79E227B2AE5BB8D00E13064 /* FlashcardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79E227A2AE5BB8D00E13064 /* FlashcardViewModel.swift */; };
+		D79E227D2AE5CA3700E13064 /* EditFlashCardPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79E227C2AE5CA3700E13064 /* EditFlashCardPage.swift */; };
+		D79E227F2AE5EF1700E13064 /* FlashcardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79E227E2AE5EF1600E13064 /* FlashcardCell.swift */; };
+		D79E22812AE5F13400E13064 /* FlashcardListPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79E22802AE5F13400E13064 /* FlashcardListPage.swift */; };
+		D79E22832AE7323F00E13064 /* FavoritesFlashcardListPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79E22822AE7323F00E13064 /* FavoritesFlashcardListPage.swift */; };
+		D79E22852AE73B7100E13064 /* FlashcardPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79E22842AE73B7100E13064 /* FlashcardPage.swift */; };
+		D79E22872AE7857C00E13064 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79E22862AE7857C00E13064 /* MainTabView.swift */; };
+		D79E22892AE9B57C00E13064 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79E22882AE9B57C00E13064 /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D79E22562AE5BA4F00E13064 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D79E223D2AE5BA4B00E13064 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D79E22442AE5BA4B00E13064;
+			remoteInfo = DriscollDrewHW6;
+		};
+		D79E22602AE5BA4F00E13064 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D79E223D2AE5BA4B00E13064 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D79E22442AE5BA4B00E13064;
+			remoteInfo = DriscollDrewHW6;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D79E22452AE5BA4B00E13064 /* DriscollDrewHW6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DriscollDrewHW6.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D79E22482AE5BA4B00E13064 /* DriscollDrewHW6App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriscollDrewHW6App.swift; sourceTree = "<group>"; };
+		D79E224C2AE5BA4E00E13064 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D79E224F2AE5BA4E00E13064 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D79E22552AE5BA4E00E13064 /* DriscollDrewHW6Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DriscollDrewHW6Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D79E22592AE5BA4F00E13064 /* DriscollDrewHW6Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriscollDrewHW6Tests.swift; sourceTree = "<group>"; };
+		D79E225F2AE5BA4F00E13064 /* DriscollDrewHW6UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DriscollDrewHW6UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D79E22632AE5BA4F00E13064 /* DriscollDrewHW6UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriscollDrewHW6UITests.swift; sourceTree = "<group>"; };
+		D79E22652AE5BA4F00E13064 /* DriscollDrewHW6UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriscollDrewHW6UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D79E22762AE5BB3700E13064 /* Flashcard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flashcard.swift; sourceTree = "<group>"; };
+		D79E22782AE5BB6200E13064 /* FlashcardsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardsModel.swift; sourceTree = "<group>"; };
+		D79E227A2AE5BB8D00E13064 /* FlashcardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardViewModel.swift; sourceTree = "<group>"; };
+		D79E227C2AE5CA3700E13064 /* EditFlashCardPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditFlashCardPage.swift; sourceTree = "<group>"; };
+		D79E227E2AE5EF1600E13064 /* FlashcardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardCell.swift; sourceTree = "<group>"; };
+		D79E22802AE5F13400E13064 /* FlashcardListPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardListPage.swift; sourceTree = "<group>"; };
+		D79E22822AE7323F00E13064 /* FavoritesFlashcardListPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesFlashcardListPage.swift; sourceTree = "<group>"; };
+		D79E22842AE73B7100E13064 /* FlashcardPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardPage.swift; sourceTree = "<group>"; };
+		D79E22862AE7857C00E13064 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		D79E22882AE9B57C00E13064 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D79E22422AE5BA4B00E13064 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D79E22522AE5BA4E00E13064 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D79E225C2AE5BA4F00E13064 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D79E223C2AE5BA4B00E13064 = {
+			isa = PBXGroup;
+			children = (
+				D79E22472AE5BA4B00E13064 /* DriscollDrewHW6 */,
+				D79E22582AE5BA4F00E13064 /* DriscollDrewHW6Tests */,
+				D79E22622AE5BA4F00E13064 /* DriscollDrewHW6UITests */,
+				D79E22462AE5BA4B00E13064 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D79E22462AE5BA4B00E13064 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D79E22452AE5BA4B00E13064 /* DriscollDrewHW6.app */,
+				D79E22552AE5BA4E00E13064 /* DriscollDrewHW6Tests.xctest */,
+				D79E225F2AE5BA4F00E13064 /* DriscollDrewHW6UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D79E22472AE5BA4B00E13064 /* DriscollDrewHW6 */ = {
+			isa = PBXGroup;
+			children = (
+				D79E22742AE5BAD000E13064 /* Model */,
+				D79E22752AE5BADD00E13064 /* ViewModel */,
+				D79E22732AE5BAB700E13064 /* View */,
+				D79E22482AE5BA4B00E13064 /* DriscollDrewHW6App.swift */,
+				D79E224C2AE5BA4E00E13064 /* Assets.xcassets */,
+				D79E224E2AE5BA4E00E13064 /* Preview Content */,
+			);
+			path = DriscollDrewHW6;
+			sourceTree = "<group>";
+		};
+		D79E224E2AE5BA4E00E13064 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D79E224F2AE5BA4E00E13064 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D79E22582AE5BA4F00E13064 /* DriscollDrewHW6Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D79E22592AE5BA4F00E13064 /* DriscollDrewHW6Tests.swift */,
+			);
+			path = DriscollDrewHW6Tests;
+			sourceTree = "<group>";
+		};
+		D79E22622AE5BA4F00E13064 /* DriscollDrewHW6UITests */ = {
+			isa = PBXGroup;
+			children = (
+				D79E22632AE5BA4F00E13064 /* DriscollDrewHW6UITests.swift */,
+				D79E22652AE5BA4F00E13064 /* DriscollDrewHW6UITestsLaunchTests.swift */,
+			);
+			path = DriscollDrewHW6UITests;
+			sourceTree = "<group>";
+		};
+		D79E22732AE5BAB700E13064 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D79E227C2AE5CA3700E13064 /* EditFlashCardPage.swift */,
+				D79E227E2AE5EF1600E13064 /* FlashcardCell.swift */,
+				D79E22802AE5F13400E13064 /* FlashcardListPage.swift */,
+				D79E22822AE7323F00E13064 /* FavoritesFlashcardListPage.swift */,
+				D79E22842AE73B7100E13064 /* FlashcardPage.swift */,
+				D79E22862AE7857C00E13064 /* MainTabView.swift */,
+				D79E22882AE9B57C00E13064 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D79E22742AE5BAD000E13064 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D79E22762AE5BB3700E13064 /* Flashcard.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D79E22752AE5BADD00E13064 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D79E22782AE5BB6200E13064 /* FlashcardsModel.swift */,
+				D79E227A2AE5BB8D00E13064 /* FlashcardViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D79E22442AE5BA4B00E13064 /* DriscollDrewHW6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D79E22692AE5BA4F00E13064 /* Build configuration list for PBXNativeTarget "DriscollDrewHW6" */;
+			buildPhases = (
+				D79E22412AE5BA4B00E13064 /* Sources */,
+				D79E22422AE5BA4B00E13064 /* Frameworks */,
+				D79E22432AE5BA4B00E13064 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DriscollDrewHW6;
+			productName = DriscollDrewHW6;
+			productReference = D79E22452AE5BA4B00E13064 /* DriscollDrewHW6.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D79E22542AE5BA4E00E13064 /* DriscollDrewHW6Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D79E226C2AE5BA4F00E13064 /* Build configuration list for PBXNativeTarget "DriscollDrewHW6Tests" */;
+			buildPhases = (
+				D79E22512AE5BA4E00E13064 /* Sources */,
+				D79E22522AE5BA4E00E13064 /* Frameworks */,
+				D79E22532AE5BA4E00E13064 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D79E22572AE5BA4F00E13064 /* PBXTargetDependency */,
+			);
+			name = DriscollDrewHW6Tests;
+			productName = DriscollDrewHW6Tests;
+			productReference = D79E22552AE5BA4E00E13064 /* DriscollDrewHW6Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D79E225E2AE5BA4F00E13064 /* DriscollDrewHW6UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D79E226F2AE5BA4F00E13064 /* Build configuration list for PBXNativeTarget "DriscollDrewHW6UITests" */;
+			buildPhases = (
+				D79E225B2AE5BA4F00E13064 /* Sources */,
+				D79E225C2AE5BA4F00E13064 /* Frameworks */,
+				D79E225D2AE5BA4F00E13064 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D79E22612AE5BA4F00E13064 /* PBXTargetDependency */,
+			);
+			name = DriscollDrewHW6UITests;
+			productName = DriscollDrewHW6UITests;
+			productReference = D79E225F2AE5BA4F00E13064 /* DriscollDrewHW6UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D79E223D2AE5BA4B00E13064 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					D79E22442AE5BA4B00E13064 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					D79E22542AE5BA4E00E13064 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D79E22442AE5BA4B00E13064;
+					};
+					D79E225E2AE5BA4F00E13064 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D79E22442AE5BA4B00E13064;
+					};
+				};
+			};
+			buildConfigurationList = D79E22402AE5BA4B00E13064 /* Build configuration list for PBXProject "DriscollDrewHW6" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D79E223C2AE5BA4B00E13064;
+			productRefGroup = D79E22462AE5BA4B00E13064 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D79E22442AE5BA4B00E13064 /* DriscollDrewHW6 */,
+				D79E22542AE5BA4E00E13064 /* DriscollDrewHW6Tests */,
+				D79E225E2AE5BA4F00E13064 /* DriscollDrewHW6UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D79E22432AE5BA4B00E13064 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D79E22502AE5BA4E00E13064 /* Preview Assets.xcassets in Resources */,
+				D79E224D2AE5BA4E00E13064 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D79E22532AE5BA4E00E13064 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D79E225D2AE5BA4F00E13064 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D79E22412AE5BA4B00E13064 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D79E227F2AE5EF1700E13064 /* FlashcardCell.swift in Sources */,
+				D79E22892AE9B57C00E13064 /* ContentView.swift in Sources */,
+				D79E22852AE73B7100E13064 /* FlashcardPage.swift in Sources */,
+				D79E227B2AE5BB8D00E13064 /* FlashcardViewModel.swift in Sources */,
+				D79E22792AE5BB6200E13064 /* FlashcardsModel.swift in Sources */,
+				D79E22812AE5F13400E13064 /* FlashcardListPage.swift in Sources */,
+				D79E22772AE5BB3700E13064 /* Flashcard.swift in Sources */,
+				D79E227D2AE5CA3700E13064 /* EditFlashCardPage.swift in Sources */,
+				D79E22492AE5BA4B00E13064 /* DriscollDrewHW6App.swift in Sources */,
+				D79E22832AE7323F00E13064 /* FavoritesFlashcardListPage.swift in Sources */,
+				D79E22872AE7857C00E13064 /* MainTabView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D79E22512AE5BA4E00E13064 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D79E225A2AE5BA4F00E13064 /* DriscollDrewHW6Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D79E225B2AE5BA4F00E13064 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D79E22662AE5BA4F00E13064 /* DriscollDrewHW6UITestsLaunchTests.swift in Sources */,
+				D79E22642AE5BA4F00E13064 /* DriscollDrewHW6UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D79E22572AE5BA4F00E13064 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D79E22442AE5BA4B00E13064 /* DriscollDrewHW6 */;
+			targetProxy = D79E22562AE5BA4F00E13064 /* PBXContainerItemProxy */;
+		};
+		D79E22612AE5BA4F00E13064 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D79E22442AE5BA4B00E13064 /* DriscollDrewHW6 */;
+			targetProxy = D79E22602AE5BA4F00E13064 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D79E22672AE5BA4F00E13064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D79E22682AE5BA4F00E13064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D79E226A2AE5BA4F00E13064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DriscollDrewHW6/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Flashcards2;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.DriscollDrewHW6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D79E226B2AE5BA4F00E13064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DriscollDrewHW6/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Flashcards2;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.DriscollDrewHW6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D79E226D2AE5BA4F00E13064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.DriscollDrewHW6Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DriscollDrewHW6.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DriscollDrewHW6";
+			};
+			name = Debug;
+		};
+		D79E226E2AE5BA4F00E13064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.DriscollDrewHW6Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DriscollDrewHW6.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DriscollDrewHW6";
+			};
+			name = Release;
+		};
+		D79E22702AE5BA4F00E13064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.DriscollDrewHW6UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DriscollDrewHW6;
+			};
+			name = Debug;
+		};
+		D79E22712AE5BA4F00E13064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.DriscollDrewHW6UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DriscollDrewHW6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D79E22402AE5BA4B00E13064 /* Build configuration list for PBXProject "DriscollDrewHW6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D79E22672AE5BA4F00E13064 /* Debug */,
+				D79E22682AE5BA4F00E13064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D79E22692AE5BA4F00E13064 /* Build configuration list for PBXNativeTarget "DriscollDrewHW6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D79E226A2AE5BA4F00E13064 /* Debug */,
+				D79E226B2AE5BA4F00E13064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D79E226C2AE5BA4F00E13064 /* Build configuration list for PBXNativeTarget "DriscollDrewHW6Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D79E226D2AE5BA4F00E13064 /* Debug */,
+				D79E226E2AE5BA4F00E13064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D79E226F2AE5BA4F00E13064 /* Build configuration list for PBXNativeTarget "DriscollDrewHW6UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D79E22702AE5BA4F00E13064 /* Debug */,
+				D79E22712AE5BA4F00E13064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D79E223D2AE5BA4B00E13064 /* Project object */;
+}

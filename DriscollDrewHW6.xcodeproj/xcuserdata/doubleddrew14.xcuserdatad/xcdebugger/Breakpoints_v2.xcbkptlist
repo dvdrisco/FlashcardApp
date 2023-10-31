@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "8A015194-B04C-4874-81F9-F55BBACEF22B"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D26225BD-9D1C-42AC-929D-B17B74C33593"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DriscollDrewHW6/View/EditFlashCardPage.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "D26225BD-9D1C-42AC-929D-B17B74C33593 - 66acd200074ca605"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.disabled(Swift.Bool) -&gt; some&gt;&gt;.0 in closure #2 () -&gt; &lt;&lt;opaque return type of static SwiftUI.ToolbarContentBuilder.buildBlock&lt;&#x3c4;_0_0 where &#x3c4;_0_0: SwiftUI.ToolbarContent&gt;(&#x3c4;_0_0) -&gt; some&gt;&gt;.0 in DriscollDrewHW6.EditFlashCardPage.body.getter : some"
+                  moduleName = "DriscollDrewHW6"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/doubleddrew14/Desktop/IOS%20Apps/HW/DriscollDrewHW6/DriscollDrewHW6/View/EditFlashCardPage.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "340">
+               </Location>
+               <Location
+                  uuid = "D26225BD-9D1C-42AC-929D-B17B74C33593 - aacb4ad0ef408d46"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.disabled(Swift.Bool) -&gt; some&gt;&gt;.0 in closure #2 () -&gt; &lt;&lt;opaque return type of static SwiftUI.ToolbarContentBuilder.buildBlock&lt;&#x3c4;_0_0 where &#x3c4;_0_0: SwiftUI.ToolbarContent&gt;(&#x3c4;_0_0) -&gt; some&gt;&gt;.0 in DriscollDrewHW6.EditFlashCardPage.body.getter : some"
+                  moduleName = "DriscollDrewHW6"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/doubleddrew14/Desktop/IOS%20Apps/HW/DriscollDrewHW6/DriscollDrewHW6/View/EditFlashCardPage.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "370">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "64690AE8-2CF5-4CAB-988D-5AB0113EA7AC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DriscollDrewHW6/View/EditFlashCardPage.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CE62379B-8A45-4F43-97AF-D6FE8DA1C579"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DriscollDrewHW6/View/FlashcardCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "96C3DB36-56E5-4CA6-A544-4CA07419A672"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DriscollDrewHW6/ViewModel/FlashcardViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "179"
+            endingLineNumber = "179"
+            landmarkName = "toggleFavorite()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "96C3DB36-56E5-4CA6-A544-4CA07419A672 - cf349208adbc5700"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DriscollDrewHW6.FlashcardViewModel.toggleFavorite() -&gt; ()"
+                  moduleName = "DriscollDrewHW6"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/doubleddrew14/Desktop/IOS%20Apps/HW/DriscollDrewHW6/DriscollDrewHW6/ViewModel/FlashcardViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "183"
+                  endingLineNumber = "183"
+                  offsetFromSymbolStart = "65">
+               </Location>
+               <Location
+                  uuid = "96C3DB36-56E5-4CA6-A544-4CA07419A672 - cf349208adbc5700"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DriscollDrewHW6.FlashcardViewModel.toggleFavorite() -&gt; ()"
+                  moduleName = "DriscollDrewHW6"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/doubleddrew14/Desktop/IOS%20Apps/HW/DriscollDrewHW6/DriscollDrewHW6/ViewModel/FlashcardViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "183"
+                  endingLineNumber = "183"
+                  offsetFromSymbolStart = "112">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
